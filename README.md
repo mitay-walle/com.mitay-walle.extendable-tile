@@ -1,7 +1,7 @@
 ## Like it? Buy me a candy
 If you like my work, you can support me on [Patreon](https://www.patreon.com/mitaywalle)
 
-Navigation
+## Navigation
 - [Problems](https://github.com/mitay-walle/Extendable-Tile#problems)
 - [Solution](https://github.com/mitay-walle/Extendable-Tile#solution)
 - [Extendable Tile](https://github.com/mitay-walle/Extendable-Tile#extendable-tile)
