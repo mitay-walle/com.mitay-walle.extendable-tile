@@ -68,9 +68,9 @@ If you like my work, you can support me on [Patreon](https://www.patreon.com/mit
 - Unity 2019.3 ( [SerializeReference](https://docs.unity3d.com/2019.3/Documentation/ScriptReference/SerializeReference.html) Attribute appeared in this version )
  
 ## Known issues
-- some TileExtensions need Enter / Exit PlayMode to Refresh
-- at this moment position rerandomized after any changes in any listed ExtendableTile.Extensions
-- Error log 'Use RegisterCompleteObjectUndo' - not braking anything
+- [ ] some TileExtensions need Enter / Exit PlayMode to Refresh
+- [ ] at this moment position rerandomized after any changes in any listed ExtendableTile.Extensions
+- [ ] Error log 'Use RegisterCompleteObjectUndo' - not braking anything
 
 ## Planned
 - [ ] RefreshTile() implementations
