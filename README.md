@@ -1,15 +1,33 @@
+Navigation
+
+
+## Problems?
+Existing Tiles that I found are rigid realizations with:
+- lack of basic features ( color, transform, sprite manipulations ) which are allowed by TileData / AnimatedTileData
+- feature set of any Tile is fixed, no customization / optional modules, that have to add repeatativly byself
+- lack of Inspector Undo
+- lack of Copy / Paste
+- Rigid custom Inspectors, disallowing use [Odin](https://odininspector.com/), or built-in Range / Header / Space Attributes for Inspector customization
+
+## Solution?
+- [SerializeReference](https://docs.unity3d.com/2019.3/Documentation/ScriptReference/SerializeReference.html) to have optional modules
+- no use custom Inspector / PropertyDrawers , to allow Odin etc, save built-in Undo, Copy / Paste
+
 # Extendable-Tile
-control color, sprite, transform, with optional modules
+control color, sprite, transform, with optional modules - TileExtensions
+
 ## Demo
 ![alt text](https://github.com/mitay-walle/Extendable-Tile/blob/master/ExtendableTile/Documentation/demo_preview.png?raw=true)
 
 ## Contents
+1. Demo Scene, tiles, extensions
+2. if your project contains [Odin Inspector](https://odininspector.com/) - ExpandableTile will use it, if not:
+###### Script types:
 - ExtendableTile - CustomTile, that aggregates TileExtensions
 - TileExtensionSO - ScriptableObject, containing TileExtension, can be referenced from ScriptableObjectEx
-- No Custom Inspectors / PropertyDrawers
-- if your project contains [Odin Inspector](https://odininspector.com/) - ExpandableTile will use it, if not:
 - TypeToLabelAttribute and custom ContextMenu to use
-- TileExtension list:
+
+###### TileExtension list:
 1. AnimateSpriteEx - analogue to [Animated Tile](https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@1.6/manual/AnimatedTile.html)
 2. WeightRandomSpriteEx - analogue to [Weight Random Tile](https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@1.5/manual/WeightedRandomTile.html)
 3. PipelineTileEx - analogue to [Pipeline Tile](https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@1.5/manual/PipelineTile.html)
@@ -27,21 +45,15 @@ control color, sprite, transform, with optional modules
 ###### Change type of already created extension in Collection or in TileExtensionSO ?
 ![alt text](https://github.com/mitay-walle/Extendable-Tile/blob/master/ExtendableTile/Documentation/Instruction_setType_ContextMenu.png?raw=true)
 
-## Problem?
-Existing Custom Tiles that I found are rigid realizations with 
-
-## Solution?
-#### [SerializeReference](https://docs.unity3d.com/2019.3/Documentation/ScriptReference/SerializeReference.html) used, to have optional modules
-
 ## Requriments
 - Unity 2019.3 ( [SerializeReference](https://docs.unity3d.com/2019.3/Documentation/ScriptReference/SerializeReference.html) Attribute appeared in this version )
  
 ## Known issues
 - some TileExtensions need Enter / Exit PlayMode to Refresh
 - at this moment position rerandomized after any changes in any listed ExtendableTile.Extensions
-- 'Use RegisterCompleteObjectUndo Error' - not braking anything
+- Error log 'Use RegisterCompleteObjectUndo' - not braking anything
 
 ## Planned
 - RefreshTile() implementations
 - seed-based Randomization
-- RuleEx (Existing [RuleTile](https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@1.6/manual/RuleTile.html) has rigid Inspector, i've ported it to PropertyDrawer for RuleEx, but it's not ready-to-use)
+- SiblingRuleEx (Existing [RuleTile](https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@1.6/manual/RuleTile.html) has rigid Inspector, i've ported it to PropertyDrawer for RuleEx, but it's not ready-to-use)
