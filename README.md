@@ -1,7 +1,20 @@
+## Like it? Buy me a candy
+If you like my work, you can support me on [Patreon](https://www.patreon.com/mitaywalle)
+
 Navigation
+- [Problems](https://github.com/mitay-walle/Extendable-Tile#problems)
+- [Solution](https://github.com/mitay-walle/Extendable-Tile#solution)
+- [Extendable Tile](https://github.com/mitay-walle/Extendable-Tile#extendable-tile)
+- [Demo](https://github.com/mitay-walle/Extendable-Tile#demo)
+- [Contents](https://github.com/mitay-walle/Extendable-Tile#contents)
+- [Script types](https://github.com/mitay-walle/Extendable-Tile#script-types)
+- [TileExtension list](https://github.com/mitay-walle/Extendable-Tile#tileextension-list)
+- [How To](https://github.com/mitay-walle/Extendable-Tile#how-to)
+- [Requriments](https://github.com/mitay-walle/Extendable-Tile#requriments)
+- [Known issues](https://github.com/mitay-walle/Extendable-Tile#known-issues)
+- [Planned](https://github.com/mitay-walle/Extendable-Tile#known-issues)
 
-
-## Problems?
+## Problems
 Existing Tiles that I found are rigid realizations with:
 - lack of basic features ( color, transform, sprite manipulations ) which are allowed by TileData / AnimatedTileData
 - feature set of any Tile is fixed, no customization / optional modules, that have to add repeatativly byself
@@ -9,11 +22,11 @@ Existing Tiles that I found are rigid realizations with:
 - lack of Copy / Paste
 - Rigid custom Inspectors, disallowing use [Odin](https://odininspector.com/), or built-in Range / Header / Space Attributes for Inspector customization
 
-## Solution?
+## Solution
 - [SerializeReference](https://docs.unity3d.com/2019.3/Documentation/ScriptReference/SerializeReference.html) to have optional modules
 - no use custom Inspector / PropertyDrawers , to allow Odin etc, save built-in Undo, Copy / Paste
 
-# Extendable-Tile
+# Extendable Tile
 control color, sprite, transform, with optional modules - TileExtensions
 
 ## Demo
@@ -36,8 +49,6 @@ control color, sprite, transform, with optional modules - TileExtensions
 6. RandomColorEx - Multiply tile color to MinMaxGradient.Evalute(), has Perlin module
 7. RotateMapEx - Remap tile rotation with random MinMaxCurve for Z
 8. ScaleMapEx - Remap tile localScale with random MinMaxCurve for XYZ
-
-
 
 ## How To
 ###### Create Tile or TileExtensionSO?
