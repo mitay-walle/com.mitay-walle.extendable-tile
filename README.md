@@ -24,7 +24,7 @@ Existing Tiles that I found are rigid realizations with:
 
 ## Solution
 - [SerializeReference](https://docs.unity3d.com/2019.3/Documentation/ScriptReference/SerializeReference.html) to have optional modules
-- no use custom Inspector / PropertyDrawers , to allow Odin etc, save built-in Undo, Copy / Paste
+- no use custom Inspector / PropertyDrawers , to allow Odin, save built-in Undo, Copy / Paste, etc
 
 # Extendable Tile
 control color, sprite, transform, with optional modules - TileExtensions
