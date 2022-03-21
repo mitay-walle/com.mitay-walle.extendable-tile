@@ -67,4 +67,5 @@ If you like my work, you can support me on [Patreon](https://www.patreon.com/mit
 ## Planned
 - RefreshTile() implementations
 - seed-based Randomization
-- SiblingRuleEx (Existing [RuleTile](https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@1.6/manual/RuleTile.html) has rigid Inspector, i've ported it to PropertyDrawer for RuleEx, but it's not ready-to-use)
+- SiblingRuleEx (Existing [Rule Tile](https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@1.6/manual/RuleTile.html) has rigid Inspector, i've ported it to PropertyDrawer for RuleEx, but it's not ready-to-use)
+- TerrainEx analogue to [Terrain Tile](https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@1.5/manual/TerrainTile.html)
