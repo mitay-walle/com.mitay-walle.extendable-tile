@@ -1,5 +1,5 @@
 # Extendable Tile
-control color, sprite, transform, with optional modules - TileExtensions
+control Tile's Color, Sprite, Transform, with optional modules - TileExtensions
 
 ![alt text](https://github.com/mitay-walle/Extendable-Tile/blob/master/ExtendableTile/Documentation/readme_preview.png?raw=true)
 
@@ -71,6 +71,7 @@ If you like my work, you can support me on [Patreon](https://www.patreon.com/mit
 - [ ] some TileExtensions need Enter / Exit PlayMode to Refresh
 - [ ] at this moment position rerandomized after any changes in any listed ExtendableTile.Extensions
 - [ ] Error log 'Use RegisterCompleteObjectUndo' - not braking anything
+- [ ] MinMaxGradient dropdown almost not clickable - problem in Unity own realization, if you use Odin - it works fine, either you [write own CustomPropertyDrawer](https://docs.unity3d.com/ru/2019.3/Manual/editor-PropertyDrawers.html), or you can [switch Inspector to Debug mode](https://docs.unity3d.com/Manual/InspectorOptions.html), and switch gradient-type there 
 
 ## Planned
 - [ ] RefreshTile() implementations
