@@ -55,6 +55,7 @@ If you like my work, you can support me on [Patreon](https://www.patreon.com/mit
 6. **RandomColorEx** - Multiply tile color to MinMaxGradient.Evalute(), has Perlin module
 7. **RotateMapEx** - Remap tile rotation with random MinMaxCurve for Z
 8. **ScaleMapEx** - Remap tile localScale with random MinMaxCurve for XYZ
+9. **ScriptableObjectEx** - refers to TileExtensionSO and execute it's TileExtension
 
 ## How To
 ###### Create Tile or TileExtensionSO?
