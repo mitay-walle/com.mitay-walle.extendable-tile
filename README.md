@@ -37,7 +37,7 @@ If you like my work, you can support me on [Patreon](https://www.patreon.com/mit
 ## Contents
 1. Demo Scene, tiles, extensions
 2. [unitypackage](https://github.com/mitay-walle/Extendable-Tile/blob/master/extendableTilePacked.unitypackage) to direct import
-3. full source code Github to explore
+3. full source code on Github to explore
 4. if your project contains [Odin Inspector](https://odininspector.com/) - ExpandableTile will use it, if not
 5. TypeToLabelAttribute and custom ContextMenu to comfortable usage
 
