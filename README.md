@@ -1,6 +1,8 @@
 # Extendable Tile
 control color, sprite, transform, with optional modules - TileExtensions
 
+![alt text](https://github.com/mitay-walle/Extendable-Tile/blob/master/ExtendableTile/Documentation/readme_preview.png?raw=true)
+
 # Like it? Buy me a candy
 If you like my work, you can support me on [Patreon](https://www.patreon.com/mitaywalle)
 
