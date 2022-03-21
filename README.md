@@ -1,4 +1,7 @@
-## Like it? Buy me a candy
+# Extendable Tile
+control color, sprite, transform, with optional modules - TileExtensions
+
+# Like it? Buy me a candy
 If you like my work, you can support me on [Patreon](https://www.patreon.com/mitaywalle)
 
 ## Navigation
@@ -14,7 +17,7 @@ If you like my work, you can support me on [Patreon](https://www.patreon.com/mit
 - [Known issues](https://github.com/mitay-walle/Extendable-Tile#known-issues)
 - [Planned](https://github.com/mitay-walle/Extendable-Tile#known-issues)
 
-## Problems
+# Problems
 [Existing tilemap tiles](https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@1.5/manual/Tiles.html) are rigid realizations with:
 - lack of basic features ( color, transform, sprite manipulations ) which are allowed by TileData / AnimatedTileData
 - feature set of any Tile is fixed, no customization / optional modules, that have to add repeatatively byself
@@ -25,9 +28,6 @@ If you like my work, you can support me on [Patreon](https://www.patreon.com/mit
 ## Solution
 - [SerializeReference](https://docs.unity3d.com/2019.3/Documentation/ScriptReference/SerializeReference.html) to have optional modules
 - no use custom Inspector / PropertyDrawers , to allow Odin, save built-in Undo, Copy / Paste, etc
-
-# Extendable Tile
-control color, sprite, transform, with optional modules - TileExtensions
 
 ## Demo
 ![alt text](https://github.com/mitay-walle/Extendable-Tile/blob/master/ExtendableTile/Documentation/demo_preview.png?raw=true)
