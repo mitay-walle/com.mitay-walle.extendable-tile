@@ -57,7 +57,7 @@ If you like my work, you can support me on [Patreon](https://www.patreon.com/mit
 - Project Window -> RMB -> Create/2D/Tiles/Extendable Tile / Extension
 ![alt text](https://github.com/mitay-walle/Extendable-Tile/blob/master/ExtendableTile/Documentation/Instruction_createTile_ProjectContextMenu.png?raw=true)
 ###### Change type of already created extension in Collection or in TileExtensionSO ?
-- TileExtension property tile -> RMB -> set to \[Extension]
+- TileExtension property title -> RMB -> set to \[Extension]
 ![alt text](https://github.com/mitay-walle/Extendable-Tile/blob/master/ExtendableTile/Documentation/Instruction_setType_ContextMenu.png?raw=true)
 
 ## Requriments
