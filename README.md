@@ -71,8 +71,8 @@ If you like my work, you can support me on [Patreon](https://www.patreon.com/mit
 ## Known issues
 - [ ] #3 some TileExtensions need Enter / Exit PlayMode to Refresh
 - [ ] #4 at this moment position rerandomized after any changes in any listed ExtendableTile.Extensions
-- [ ] :no_entry: #5 Error log 'Use RegisterCompleteObjectUndo' - not braking anything<br/>
-- [ ] :no_entry: #6 MinMaxGradient dropdown almost not clickable - problem in Unity own realization, if you use Odin - it works fine, either you [write own CustomPropertyDrawer](https://docs.unity3d.com/ru/2019.3/Manual/editor-PropertyDrawers.html), or you can [switch Inspector to Debug mode](https://docs.unity3d.com/Manual/InspectorOptions.html), and switch gradient-type there 
+- [ ] #5 :no_entry: Error log 'Use RegisterCompleteObjectUndo' - not braking anything<br/>
+- [ ] #6 :no_entry: MinMaxGradient dropdown almost not clickable - problem in Unity own realization, if you use Odin - it works fine, either you [write own CustomPropertyDrawer](https://docs.unity3d.com/ru/2019.3/Manual/editor-PropertyDrawers.html), or you can [switch Inspector to Debug mode](https://docs.unity3d.com/Manual/InspectorOptions.html), and switch gradient-type there 
 
 ## Planned
 - [ ] #3 RefreshTile() Implementation
