@@ -1,0 +1,15 @@
+{
+    "name": "ExtendableEditor",
+    "references": [
+        "GUID:d19f493fb79a9424ea51546e9fbed390"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

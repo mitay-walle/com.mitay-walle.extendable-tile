@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e66f65e540285dd45bb631dd908514a7, type: 3}
+  m_Name: Tile Ex Sprite Pipeline
+  m_EditorClassIdentifier: 
+  Data:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: PipelineTileEx, ns: Plugins.Extendable.Runtime.Extensions, asm: Extendable}
+      data:
+        _isEnabled: 1
+        _myTile: {fileID: 11400000, guid: c17aa5d74e2b03149a0880997a98f0ea, type: 2}
+        _dot: {fileID: -4586624778421651580, guid: 3155ab221b9b6904e80dc21dd12e93c7,
+          type: 3}
+        _LeftBotAngle: {fileID: -6188736000431266583, guid: 3155ab221b9b6904e80dc21dd12e93c7,
+          type: 3}
+        _verticalLine: {fileID: -2322170212891377904, guid: 3155ab221b9b6904e80dc21dd12e93c7,
+          type: 3}
+        _cross: {fileID: -558145011113562201, guid: 3155ab221b9b6904e80dc21dd12e93c7,
+          type: 3}
+        _tCrossLeftTopRight: {fileID: -1055867552956724528, guid: 3155ab221b9b6904e80dc21dd12e93c7,
+          type: 3}

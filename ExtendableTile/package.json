@@ -1,0 +1,21 @@
+{
+  "name": "com.mitay-walle.extendable-tile",
+  "version": "1.0.0",
+  "displayName": "Tilemap Extendable Tile",
+  "description": "Tile with ability control color, sprite, transform, with optional modules",
+  "unity": "2018.4",
+  "unityRelease": "0b5",
+  "documentationUrl": "https://github.com/mitay-walle/Transform_stuff#readme",
+  "licensesUrl": "https://github.com/mitay-walle/Transform_stuff/blob/master/LICENSE",
+  "dependencies": { },
+ "keywords": [
+    "Tilemap",
+    "Tile",
+    "Extendable"
+  ],
+  "author": {
+    "name": "mitay-walle",
+    "email": "mitay-walle@mail.ru",
+    "url": "https://github.com/mitay-walle"
+  }
+}
