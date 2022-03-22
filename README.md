@@ -19,11 +19,12 @@ If you like my work, you can support me on [Patreon](https://www.patreon.com/mit
 - [Known issues](https://github.com/mitay-walle/Extendable-Tile#known-issues)
 - [Planned](https://github.com/mitay-walle/Extendable-Tile#known-issues)
 
-# Problems
+# Problem
 [Existing tilemap tiles](https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@1.5/manual/Tiles.html) are rigid realizations with:
 - lack of basic features ( color, transform, sprite manipulations ) which are allowed by TileData / AnimatedTileData
 - feature set of any Tile is fixed, no customization / optional modules, that have to add repeatatively byself
 - lack of Inspector Undo
+- Replace Tile type is big issue (change from RuleTile to TerrainTile etc )
 - lack of Copy / Paste
 - Rigid custom Inspectors, disallowing use [Odin](https://odininspector.com/), or built-in Range / Header / Space Attributes for Inspector customization
 
