@@ -1,4 +1,5 @@
 using System;
+using Plugins.mitaywalle.ExtendableTile.Runtime;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 #if ODIN_INSPECTOR
@@ -11,50 +12,8 @@ namespace Plugins.Extendable.Runtime.Extensions
     public class PipelineTileEx : TileExtension
     {
         [SerializeField] private TileBase _myTile = default;
-#if ODIN_INSPECTOR
-    [PreviewField(ObjectFieldAlignment.Left), LabelText("* Dot")]
-#endif
-        [SerializeField] private Sprite _dot = default;
-#if ODIN_INSPECTOR
-    [PreviewField(ObjectFieldAlignment.Left), LabelText("┐ Left Bot Angle")]
-#endif
-        [SerializeField] private Sprite _LeftBotAngle = default;
-#if ODIN_INSPECTOR
-    [PreviewField(ObjectFieldAlignment.Left), LabelText("| Vertical Line")]
-#endif
-        [SerializeField] private Sprite _verticalLine = default;
-#if ODIN_INSPECTOR
-    [PreviewField(ObjectFieldAlignment.Left), LabelText("┼ Cross")]
-#endif
-        [SerializeField] private Sprite _cross = default;
-#if ODIN_INSPECTOR
-    [PreviewField(ObjectFieldAlignment.Left), LabelText("┴ Cross")]
-#endif
-        [SerializeField] private Sprite _tCrossLeftTopRight = default;
-
-        private Sprite GetSprite(int index)
-        {
-            switch (index)
-            {
-                case 0:
-                    return _dot;
-
-                case 1:
-                    return _LeftBotAngle;
-
-                case 2:
-                    return _verticalLine;
-
-                case 3:
-                    return _tCrossLeftTopRight;
-
-                case 4:
-                    return _cross;
-            }
-
-            return _dot;
-        }
-
+        [LabeledArray(new[] {"* Dot", "┐ Left Bot Angle", " | Vertical Line", "┼ Cross", "┴ T Cross"})]
+        [SerializeField] private Sprite[] _sprites = new Sprite[5];
 
         public override void RefreshTile(Vector3Int position, ITilemap tilemap)
         {
@@ -82,9 +41,9 @@ namespace Plugins.Extendable.Runtime.Extensions
 
             int index = GetIndex((byte)mask);
 
-            if (index >= 0 && index < 5 && TileValue(tilemap, position))
+            if (index >= 0 && index < _sprites.Length && TileValue(tilemap, position))
             {
-                tileData.sprite = GetSprite(index);
+                tileData.sprite = _sprites[index];
                 tileData.transform = GetTransform((byte)mask);
                 tileData.flags = TileFlags.LockTransform | TileFlags.LockColor;
                 tileData.colliderType = Tile.ColliderType.Sprite;
@@ -118,12 +77,12 @@ namespace Plugins.Extendable.Runtime.Extensions
                 case 10:
                 case 8: return 2;
 
+                case 15: return 3;
+
                 case 7:
                 case 11:
                 case 13:
-                case 14: return 3;
-
-                case 15: return 4;
+                case 14: return 4;
             }
 
             return -1;
@@ -131,6 +90,7 @@ namespace Plugins.Extendable.Runtime.Extensions
 
         private Matrix4x4 GetTransform(byte mask)
         {
+  
             switch (mask)
             {
                 case 9:
@@ -138,15 +98,15 @@ namespace Plugins.Extendable.Runtime.Extensions
                 case 7:
                 case 2:
                 case 8:
-                    return Matrix4x4.TRS(Vector3.zero, Quaternion.Euler(0f, 0f, -90f), Vector3.one);
+                    return Matrix4x4.TRS(Vector3.zero, Quaternion.Euler(0, 0, -90), Vector3.one);
 
                 case 3:
                 case 14:
-                    return Matrix4x4.TRS(Vector3.zero, Quaternion.Euler(0f, 0f, -180f), Vector3.one);
+                    return Matrix4x4.TRS(Vector3.zero, Quaternion.Euler(0, 0, -180), Vector3.one);
 
                 case 6:
                 case 13:
-                    return Matrix4x4.TRS(Vector3.zero, Quaternion.Euler(0f, 0f, -270f), Vector3.one);
+                    return Matrix4x4.TRS(Vector3.zero, Quaternion.Euler(0, 0, -270), Vector3.one);
             }
 
             return Matrix4x4.identity;

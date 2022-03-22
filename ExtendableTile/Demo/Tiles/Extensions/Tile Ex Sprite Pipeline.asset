@@ -21,13 +21,9 @@ MonoBehaviour:
       data:
         _isEnabled: 1
         _myTile: {fileID: 11400000, guid: c17aa5d74e2b03149a0880997a98f0ea, type: 2}
-        _dot: {fileID: -4586624778421651580, guid: 3155ab221b9b6904e80dc21dd12e93c7,
-          type: 3}
-        _LeftBotAngle: {fileID: -6188736000431266583, guid: 3155ab221b9b6904e80dc21dd12e93c7,
-          type: 3}
-        _verticalLine: {fileID: -2322170212891377904, guid: 3155ab221b9b6904e80dc21dd12e93c7,
-          type: 3}
-        _cross: {fileID: -558145011113562201, guid: 3155ab221b9b6904e80dc21dd12e93c7,
-          type: 3}
-        _tCrossLeftTopRight: {fileID: -1055867552956724528, guid: 3155ab221b9b6904e80dc21dd12e93c7,
-          type: 3}
+        _sprites:
+        - {fileID: -7306855669053604407, guid: 3155ab221b9b6904e80dc21dd12e93c7, type: 3}
+        - {fileID: 4241494986820194994, guid: 3155ab221b9b6904e80dc21dd12e93c7, type: 3}
+        - {fileID: -3385805023499867733, guid: 3155ab221b9b6904e80dc21dd12e93c7, type: 3}
+        - {fileID: 5289787804856440118, guid: 3155ab221b9b6904e80dc21dd12e93c7, type: 3}
+        - {fileID: 7577233387153017814, guid: 3155ab221b9b6904e80dc21dd12e93c7, type: 3}
