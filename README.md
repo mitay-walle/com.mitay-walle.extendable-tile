@@ -66,7 +66,7 @@ If you like my work, you can support me on [Patreon](https://www.patreon.com/mit
 ![alt text](https://github.com/mitay-walle/Extendable-Tile/blob/master/ExtendableTile/Documentation/Instruction_setType_ContextMenu.png?raw=true)
 
 ## Requriments
-- Unity 2019.3 ( [SerializeReference](https://docs.unity3d.com/2019.3/Documentation/ScriptReference/SerializeReference.html) Attribute appeared in this version )
+- Unity 2020.2 Array became reordable at this version
  
 ## Known issues
 - [ ] #3 some TileExtensions need Enter / Exit PlayMode to Refresh
