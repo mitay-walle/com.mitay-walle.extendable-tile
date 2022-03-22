@@ -49,13 +49,14 @@ If you like my work, you can support me on [Patreon](https://www.patreon.com/mit
 ###### TileExtension list:
 1. **AnimateSpriteEx** - analogue to [Animated Tile](https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@1.6/manual/AnimatedTile.html)
 2. **WeightRandomSpriteEx** - analogue to [Weight Random Tile](https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@1.5/manual/WeightedRandomTile.html)
-3. **PipelineTileEx** - analogue to [Pipeline Tile](https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@1.5/manual/PipelineTile.html)
-4. **ColorOutlineEx** - evaluate Gradeint based on same-tile-neibhours-count, smooth sides
-5. **PositionMapEx** - Remap tile position with split random MinMaxCurves for X and Y
-6. **RandomColorEx** - Multiply tile color to MinMaxGradient.Evalute(), has Perlin module
-7. **RotateMapEx** - Remap tile rotation with random MinMaxCurve for Z
-8. **ScaleMapEx** - Remap tile localScale with random MinMaxCurve for XYZ
-9. **ScriptableObjectEx** - refers to TileExtensionSO and execute it's TileExtension
+3. **TerrainEx** analogue to [Terrain Tile](https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@1.5/manual/TerrainTile.html)
+4. **PipelineTileEx** - analogue to [Pipeline Tile](https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@1.5/manual/PipelineTile.html)
+5. **ColorOutlineEx** - evaluate Gradeint based on same-tile-neibhours-count, smooth sides
+6. **PositionMapEx** - Remap tile position with split random MinMaxCurves for X and Y
+7. **RandomColorEx** - Multiply tile color to MinMaxGradient.Evalute(), has Perlin module
+8. **RotateMapEx** - Remap tile rotation with random MinMaxCurve for Z
+9. **ScaleMapEx** - Remap tile localScale with random MinMaxCurve for XYZ
+10. **ScriptableObjectEx** - refers to TileExtensionSO and execute it's TileExtension
 
 ## How To
 ###### Create Tile or TileExtensionSO?
