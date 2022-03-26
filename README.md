@@ -1,5 +1,5 @@
 # Extendable Tile
-control Tile's Color, Sprite, Transform, with optional modules - TileExtensions
+control Unity Tilmap Tile's Color, Sprite, Transform, with optional modules - TileExtensions
 
 ![alt text](https://github.com/mitay-walle/Extendable-Tile/blob/master/ExtendableTile/Documentation/readme_preview.png?raw=true)
 
