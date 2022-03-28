@@ -1,7 +1,7 @@
 # Extendable Tile
 control Unity Tilmap Tile's Color, Sprite, Transform, with optional modules - TileExtensions
 
-![alt text](https://github.com/mitay-walle/Extendable-Tile/blob/master/ExtendableTile/Documentation/readme_preview.png?raw=true)
+![alt text](https://github.com/mitay-walle/Extendable-Tile/blob/master/Documentation/readme_preview.png)
 
 # Like it? Buy me a candy
 If you like my work, you can support me on [Patreon](https://www.patreon.com/mitaywalle)
@@ -33,7 +33,7 @@ If you like my work, you can support me on [Patreon](https://www.patreon.com/mit
 - no use custom Inspector / PropertyDrawers , to allow Odin, save built-in Undo, Copy / Paste, etc
 
 ## Demo
-![alt text](https://github.com/mitay-walle/Extendable-Tile/blob/master/ExtendableTile/Documentation/demo_preview.png?raw=true)
+![alt text](https://github.com/mitay-walle/Extendable-Tile/blob/master/Documentation/demo_preview.png)
 
 ## Contents
 1. Demo Scene, tiles, extensions
@@ -62,10 +62,10 @@ If you like my work, you can support me on [Patreon](https://www.patreon.com/mit
 ## How To
 ###### Create Tile or TileExtensionSO?
 - Project Window -> RMB -> Create/2D/Tiles/Extendable Tile / Extension
-![alt text](https://github.com/mitay-walle/Extendable-Tile/blob/master/ExtendableTile/Documentation/Instruction_createTile_ProjectContextMenu.png?raw=true)
+![alt text](https://github.com/mitay-walle/Extendable-Tile/blob/master/Documentation/Instruction_createTile_ProjectContextMenu.png?raw=true)
 ###### Change type of already created extension in Collection or in TileExtensionSO ?
 - TileExtension property title -> RMB -> set to \[Extension]
-![alt text](https://github.com/mitay-walle/Extendable-Tile/blob/master/ExtendableTile/Documentation/Instruction_setType_ContextMenu.png?raw=true)
+![alt text](https://github.com/mitay-walle/Extendable-Tile/blob/master/Documentation/Instruction_setType_ContextMenu.png?raw=true)
 
 ## Requriments
 - Unity 2020.2 Array became reordable at this version
