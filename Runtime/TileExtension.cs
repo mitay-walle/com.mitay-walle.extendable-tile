@@ -4,6 +4,9 @@ using UnityEngine.Tilemaps;
 
 namespace Plugins.Extendable.Runtime
 {
+    /// <summary>
+    /// Base class for modular Tile behaviours
+    /// </summary>
     [Serializable]
     public abstract class TileExtension
     {
