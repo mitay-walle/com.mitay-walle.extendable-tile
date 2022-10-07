@@ -17,4 +17,10 @@
     "email": "mitay-walle@mail.ru",
     "url": "https://github.com/mitay-walle"
   }
+  "samples":[
+  {
+	"displayName": "Demo scene",
+	"path": "Demo~"
+  }
+  ]
 }
