@@ -65,10 +65,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -107,6 +109,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 1
+  swizzle: 50462976
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -460,9 +463,24 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Dungeon_3Corners: -7385175419658825098
+      Dungeon_2SidesOpp: 8241026149576720579
+      Dungeon_1Corner: -7048581465117660784
+      Dungeon_2AdjCorners: 2741894310953368383
+      Dungeon_4Corners: 9119227501592392301
+      Dungeon_Filled: 5718469909854450143
+      Dungeon_2SidesAdj: -7107195022900573981
+      Dungeon_1Side2Corners: 4654243933662768636
+      Dungeon_Empty: 8960765015654168026
+      Dungeon_1Side: 6104463937874508726
+      Dungeon_1Side1CornerBot: 6643711269398968355
+      Dungeon_1Side1CornerUp: 6098089514873771090
+      Dungeon_3Sides: -4233890063712905844
+      Dungeon_2OppCorners: 6984513114953419391
+      Dungeon_2Side1Corner: 8237061683751424216
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

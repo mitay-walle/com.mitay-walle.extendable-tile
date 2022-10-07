@@ -20,10 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -62,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 1
+  swizzle: 50462976
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -130,7 +133,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: bd978ea8b099d994da29655a3e797874
-      internalID: -1741920138
+      internalID: 5289787804856440118
       vertices: []
       indices: 
       edges: []
@@ -151,7 +154,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 0f97a137ad433df4bb622ec7b13dcaa6
-      internalID: -565000162
+      internalID: 7577233387153017814
       vertices: []
       indices: 
       edges: []
@@ -172,7 +175,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 2df565ae226316847b14f49ecb19d1a0
-      internalID: -1422493201
+      internalID: -3385805023499867733
       vertices: []
       indices: 
       edges: []
@@ -193,7 +196,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 7ec8f369a42ba8c4d941aaceba671682
-      internalID: -1068535413
+      internalID: 4241494986820194994
       vertices: []
       indices: 
       edges: []
@@ -214,7 +217,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 3e636be7b7beb6447bafcebdbdb26060
-      internalID: -871628828
+      internalID: -7306855669053604407
       vertices: []
       indices: 
       edges: []
@@ -229,9 +232,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      TCross: 7577233387153017814
+      Dot: -7306855669053604407
+      Line: -3385805023499867733
+      Angle: 4241494986820194994
+      Cross: 5289787804856440118
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
